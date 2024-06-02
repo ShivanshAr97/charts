@@ -8,7 +8,6 @@ Chart.defaults.color = "#fff";
 Chart.register(Title, Tooltip, Legend);
 
 function Piechart() {
-  console.log(jsonFile);
   const protocols = {};
 
   jsonFile.forEach((item) => {
@@ -22,7 +21,7 @@ function Piechart() {
     }
   });
 
-  console.log(protocols);
+  // console.log(protocols);
   const labels = Object.keys(protocols).filter(
     (protocol) => protocol !== "undefined"
   );
