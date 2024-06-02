@@ -1,6 +1,7 @@
 # React Assignment: WiJungle - by httpCart
 
 ### Deployed Link
+https://charts-wijungle.vercel.app
 
 ### Features
 - Dark Theme

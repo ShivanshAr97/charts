@@ -46,9 +46,13 @@ function Linechart() {
       <Line
         data={data}
         options={{
+          
           responsive: true,
           scales: {
             y: {
+              grid: {
+                color: 'gray'
+              },
               beginAtZero: true,
               title: {
                 display: true,
@@ -56,6 +60,9 @@ function Linechart() {
               },
             },
             x: {
+              grid: {
+                color: 'gray'
+              },
               title: {
                 display: true,
                 text: 'Timestamp',
